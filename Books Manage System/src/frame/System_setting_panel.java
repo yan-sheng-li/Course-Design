@@ -193,15 +193,15 @@ public class System_setting_panel extends JPanel {
 		panel.add(btnNewButton_1);
 		
 		JPanel panel_1 = new JPanel();
-		tabbedPane.addTab("联系作者", new ImageIcon(System_setting_panel.class.getResource("/img/联系.png")), panel_1, null);
+		tabbedPane.addTab("更多联系作者VX：17641244340，觉得不错可以打赏一下哦！O(∩_∩)O", new ImageIcon(System_setting_panel.class.getResource("/img/联系.png")), panel_1, null);
 		panel_1.setLayout(null);
 		
 		JLabel lblNewLabel_3 = new JLabel("");
-		lblNewLabel_3.setBounds(90, 0, 527, 349);
-		lblNewLabel_3.setIcon(new ImageIcon(System_setting_panel.class.getResource("/img/mmqrcode1626318219670.png")));
+		lblNewLabel_3.setBounds(0, 0, 500, 400);
+		lblNewLabel_3.setIcon(new ImageIcon(System_setting_panel.class.getResource("/img/vx_pay.jpg")));
 		panel_1.add(lblNewLabel_3);
 		
-		JLabel lblNewLabel_5 = new JLabel("更多联系作者VX：17641244340");
+		JLabel lblNewLabel_5 = new JLabel("");
 		lblNewLabel_5.setFont(new Font("宋体", Font.BOLD, 21));
 		lblNewLabel_5.setBounds(193, 359, 367, 40);
 		panel_1.add(lblNewLabel_5);

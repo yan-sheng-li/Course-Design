@@ -58,7 +58,7 @@ public class Jrame2 extends JFrame {
 		this.manager=manager;
 		setIconImage(Toolkit.getDefaultToolkit().getImage("/img/线性图书 (1).png"));
 		setFont(new Font("Courier New", Font.BOLD, 21));
-		setTitle("图书信息管理系统v4.0-by计181李延胜");
+		setTitle("图书信息管理系统v4.0-by--CSDN@缘分锝天空-vx:17641244340");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 730, 596);
 		setResizable(false);

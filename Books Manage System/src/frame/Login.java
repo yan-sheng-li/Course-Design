@@ -62,7 +62,7 @@ public class Login extends JFrame {
 	public Login() {
 		setBackground(new Color(224, 255, 255));
 		setIconImage(Toolkit.getDefaultToolkit().getImage(Login.class.getResource("/img/线性图书 (1).png")));
-		setTitle("图书信息管理系统v4.0by计算机181李延胜");
+		setTitle("图书信息管理系统v4.0by--CSDN@缘分锝天空-vx:17641244340");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 		setBounds(100, 100, 610, 377);
 		contentPane = new JPanel();
