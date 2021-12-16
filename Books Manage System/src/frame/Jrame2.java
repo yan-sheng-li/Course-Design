@@ -150,6 +150,10 @@ public class Jrame2 extends JFrame {
 		JButton btnNewButton_4 = new JButton("退出系统");
 		btnNewButton_4.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+				Login login=new Login();
+//				关闭当前
+				dispose();
+				login.setVisible(true);
 			}
 		});
 		btnNewButton_4.setIcon(new ImageIcon(Jrame2.class.getResource("/img/退出 (1).png")));
